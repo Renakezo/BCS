@@ -1,0 +1,89 @@
+/* .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    margin: 5px 3% 5px 3%;
+}
+
+.header .logo img {
+    width: 50px;
+}
+
+.header .logo h1 {
+}
+
+.nav {
+    justify-items: center;
+    background: #d9d9d980;
+    min-height: 70px;
+    align-content: center;
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
+
+.nav ul li a{
+    text-decoration: none;
+} */
+
+.mainblock {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 100vh;
+}
+
+.profileh1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skin {
+    background: #D9D9D9;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.playerdata {
+    background: #D9D9D9;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.playerdata h2, .skin h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.outbuttondiv {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.outbutton {
+    border-radius: 13px;
+    height: 70px;
+    width: 200px;
+    background: rgb(227, 20, 20);
+    color: white;
+    font-size: 20px;
+}

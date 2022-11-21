@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logbtn {
+    background: rgb(56, 218, 31);
+    border:none;
+    border-radius: 13px;
+    min-width: 90px;
+    min-height: 50px;
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.logbtn:hover {
+    border: 1px rgb(23, 105, 26) solid
+}
+
+.input {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+}

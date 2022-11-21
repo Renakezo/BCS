@@ -1,0 +1,83 @@
+.main_header {
+  min-width: 1440px;
+  width: 100%;
+}
+
+.header {
+  height: 80px;
+  background: #707B2D;
+}
+
+.header_center {
+  /* width: 100vw; */
+  justify-content: space-between;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.auth {
+  /* display: flex;
+  align-items: center; */
+}
+
+.auth_button {
+
+}
+
+.reg_button {
+
+}
+
+.user {
+
+}
+
+.nav {
+  height: 80px;
+  background: #385A15;
+}
+
+.nav_center {
+  height: 80px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-content:center;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  align-self: center;
+  list-style: none;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
